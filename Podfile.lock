@@ -1,27 +1,35 @@
 PODS:
-  - Hippo (2.1.52):
-    - Hippo/Chat (= 2.1.52)
+  - Hippo (2.1.53):
+    - Hippo/Chat (= 2.1.53)
     - Socket.IO-Client-Swift
-  - Hippo/Chat (2.1.52):
+  - Hippo/Chat (2.1.53):
     - Socket.IO-Client-Swift
   - Socket.IO-Client-Swift (16.0.1):
     - Starscream (~> 4.0)
   - Starscream (4.0.4)
 
 DEPENDENCIES:
-  - Hippo
+  - Hippo (from `https://github.com/Jungle-Works/Hippo-iOS-SDK.git`)
 
 SPEC REPOS:
   trunk:
-    - Hippo
     - Socket.IO-Client-Swift
     - Starscream
 
+EXTERNAL SOURCES:
+  Hippo:
+    :git: https://github.com/Jungle-Works/Hippo-iOS-SDK.git
+
+CHECKOUT OPTIONS:
+  Hippo:
+    :commit: c375152ed5989b609c7b1967c867b7fa5f7b9608
+    :git: https://github.com/Jungle-Works/Hippo-iOS-SDK.git
+
 SPEC CHECKSUMS:
-  Hippo: d8cf386f20eba2d871d880f1d813b5f48dd74d24
+  Hippo: 06a28b8451be355c458534a542590551195038ac
   Socket.IO-Client-Swift: c116d6dc9fd6be9c259bacfe143f8725bce7d79e
   Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
 
-PODFILE CHECKSUM: 17952b06aea2e54c8b628487e93ae4facbf109d1
+PODFILE CHECKSUM: f8cbf29e88651175d63ab732030b05e213604db8
 
 COCOAPODS: 1.10.1

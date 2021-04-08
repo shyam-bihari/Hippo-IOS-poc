@@ -1,4 +1,4 @@
-framework module Pods_Hippo_Chat_POC {
+module Pods_Hippo_Chat_POC {
   umbrella header "Pods-Hippo Chat POC-umbrella.h"
 
   export *

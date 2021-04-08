@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2B581787A3FCF94CC9EDF47EF4682E5F"
-               BuildableName = "Hippo.framework"
+               BuildableName = "libHippo.a"
                BlueprintName = "Hippo"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

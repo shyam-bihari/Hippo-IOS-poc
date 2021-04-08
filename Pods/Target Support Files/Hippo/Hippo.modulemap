@@ -1,4 +1,4 @@
-framework module Hippo {
+module Hippo {
   umbrella header "Hippo-umbrella.h"
 
   export *

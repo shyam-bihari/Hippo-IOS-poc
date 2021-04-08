@@ -1,0 +1,1 @@
+../../../Hippo/Hippo/CustomClasses/RatingView/HCSStarRatingView.h
