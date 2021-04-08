@@ -1,0 +1,27 @@
+PODS:
+  - Hippo (2.1.52):
+    - Hippo/Chat (= 2.1.52)
+    - Socket.IO-Client-Swift
+  - Hippo/Chat (2.1.52):
+    - Socket.IO-Client-Swift
+  - Socket.IO-Client-Swift (16.0.1):
+    - Starscream (~> 4.0)
+  - Starscream (4.0.4)
+
+DEPENDENCIES:
+  - Hippo
+
+SPEC REPOS:
+  trunk:
+    - Hippo
+    - Socket.IO-Client-Swift
+    - Starscream
+
+SPEC CHECKSUMS:
+  Hippo: d8cf386f20eba2d871d880f1d813b5f48dd74d24
+  Socket.IO-Client-Swift: c116d6dc9fd6be9c259bacfe143f8725bce7d79e
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+
+PODFILE CHECKSUM: 17952b06aea2e54c8b628487e93ae4facbf109d1
+
+COCOAPODS: 1.10.1

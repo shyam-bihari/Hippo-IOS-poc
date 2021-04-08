@@ -1,0 +1,6 @@
+framework module Hippo {
+  umbrella header "Hippo-umbrella.h"
+
+  export *
+  module * { export * }
+}

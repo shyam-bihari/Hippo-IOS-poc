@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Hippo Chat POC/Pods-Hippo Chat POC-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Hippo/Hippo.framework
+${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework
+${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework
