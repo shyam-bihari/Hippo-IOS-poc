@@ -14,7 +14,7 @@
 		431CE58F25D69B0700D2B6B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 431CE58E25D69B0700D2B6B4 /* Assets.xcassets */; };
 		431CE59225D69B0700D2B6B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 431CE59125D69B0700D2B6B4 /* Preview Assets.xcassets */; };
 		431CE59525D69B0700D2B6B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431CE59325D69B0700D2B6B4 /* LaunchScreen.storyboard */; };
-		A61D9147C6424093E0C42885 /* libPods-Hippo Chat POC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78396AA1EEAAE53ADBF89F99 /* libPods-Hippo Chat POC.a */; };
+		4D673BF097AE3E96AE29FB85 /* libPods-Hippo Chat POC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC731A736F9A610F1157220D /* libPods-Hippo Chat POC.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		431CE59125D69B0700D2B6B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		431CE59425D69B0700D2B6B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		431CE59625D69B0700D2B6B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78396AA1EEAAE53ADBF89F99 /* libPods-Hippo Chat POC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Hippo Chat POC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC731A736F9A610F1157220D /* libPods-Hippo Chat POC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Hippo Chat POC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A61D9147C6424093E0C42885 /* libPods-Hippo Chat POC.a in Frameworks */,
+				4D673BF097AE3E96AE29FB85 /* libPods-Hippo Chat POC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 		6E838D61AC60750EA9806C4A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				78396AA1EEAAE53ADBF89F99 /* libPods-Hippo Chat POC.a */,
+				EC731A736F9A610F1157220D /* libPods-Hippo Chat POC.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -113,7 +113,7 @@
 				431CE57E25D69B0500D2B6B4 /* Sources */,
 				431CE57F25D69B0500D2B6B4 /* Frameworks */,
 				431CE58025D69B0500D2B6B4 /* Resources */,
-				8F2F69157701738B7B121892 /* [CP] Copy Pods Resources */,
+				E6B00A5DE1D5963CCC339A8A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -171,23 +171,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8F2F69157701738B7B121892 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Hippo Chat POC/Pods-Hippo Chat POC-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Hippo Chat POC/Pods-Hippo Chat POC-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hippo Chat POC/Pods-Hippo Chat POC-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B56358FFA1E6C660B042DF63 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -208,6 +191,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6B00A5DE1D5963CCC339A8A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hippo Chat POC/Pods-Hippo Chat POC-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
